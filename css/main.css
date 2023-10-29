@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}
+
+.main {
+    text-align: center;
+}
+
+h3 {
+    color: gray;
+}
+
+.card {
+    max-width: 400px;
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.card-wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main h1 {
+    margin-bottom: 50px;
+}
+
+.to-farengeyt {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.to-farengeyt h2 {
+    margin-bottom: 40px;
+}
+
+.faren {
+    margin-left: 10px;
+}
+
+.count {
+    margin-top: 30px;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.clock {
+    color: white;
+    margin-top: 30vh;
+    font-weight: bold;
+    font-size: 20vh;
+    filter: drop-shadow(3px 3px 5px #FFFFFF);
+}
