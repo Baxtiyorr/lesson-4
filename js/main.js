@@ -62,9 +62,9 @@ window.onload = function() {
         let minutes = date.getMinutes();
         let second = date.getSeconds();
 
-        if (hours <= 10) { hours = '0' + hours }
-        if (minutes <= 10) { minutes = '0' + minutes }
-        if (second <= 10) { second = '0' + second }
+        if (hours < 10) { hours = '0' + hours }
+        if (minutes < 10) { minutes = '0' + minutes }
+        if (second < 10) { second = '0' + second }
 
         const clock = hours + ':' + minutes + ':' + second;
 
