@@ -9,51 +9,59 @@
 </head>
 
 <body>
-    <!-- <main>
-        <section>
+
+    <header>
+        <nav>
             <div class="container">
-                <div class="main">
-                    <h1>Who can go first</h1>
-                    <form class="form">
-                        <label>
-                            Distance
-                            <input type="number" placeholder="100km" id="input_distance"> <button  class="sub_btn">Calculate</button>
-                        </label>
-                    </form>
-                    <div class="card-wrapper">
-                        <div class="card">
-                            <img src="./images/man.png" alt="man">
-                            <h3>On foot</h3>
-                            <h2 class="h2">N hours</h2>
-                        </div>
-                        <div class="card">
-                            <img src="./images/bicycle.png" alt="bicycle">
-                            <h3>on bicycle</h3>
-                            <h2 class="h2">N hours</h2>
-                        </div>
-                        <div class="card">
-                            <img src="./images/car.png" alt="car">
-                            <h3>In car</h3>
-                            <h2 class="h2">N hours</h2>
-                        </div>
-                        <div class="card">
-                            <img src="./images/airplane.png" alt="airplane">
-                            <h3>On plane</h3>
-                            <h2 class="h2">N hours</h2>
-                        </div>
-                    </div>
+                <div class="nav-bar">
+                    <h1>Where in the world</h1>
+                    <button class="nav-bar__btn_dark"><img src="./images/icons/moon.svg" alt="">Dark mode</button>
+                    <button class="nav-bar__btn_light display"><img src="./images/icons/sun-light.svg" alt="">Light mode</button>
                 </div>
             </div>
-        </section>
-        <section class="to-farengeyt">
-            <h2>From Celsius to Farengeyt</h2>
-            <form class="faren_form">
-                <input type="number" id="toFarengeyt" placeholder="C"><button class="faren">Calculate</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <form class="form">
+                <img class="loop" src="./images/icons/icons8-search.svg" alt="search">
+                <input type="search" class="search_input" placeholder="Search..." name="name">
+                <button type="submit" class="search_btn">Search</button>
             </form>
-            <h2 class="count">NF</h2>
+            <h2 class="title">All regions</h2>
+
         </section>
-    </main> -->
-    <div class="clock"></div>
+        <section>
+            <div class="loading">
+                <div class="lds-spinner">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="not_found">Not found</div>
+            <div class="container card_container">
+
+        </section>
+        <section>
+            <div class="container">
+                <ul class="pagination">
+
+                </ul>
+            </div>
+        </section>
+    </main>
+
     <script src="./js/main.js"></script>
 </body>
 
