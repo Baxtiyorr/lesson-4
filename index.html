@@ -8,61 +8,132 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body class="dark-mode">
+<body>
 
     <header>
         <nav>
             <div class="container">
-                <div class="nav-bar">
-                    <h1>Where in the world</h1>
-                    <button class="nav-bar__btn_dark"><img src="./images/icons/moon.svg" alt="">Dark mode</button>
-                    <button class="nav-bar__btn_light display"><img src="./images/icons/sun-light.svg" alt="">Light mode</button>
+                <div class="nav__bar">
+                    <h2>Movies</h2>
+                    <button class="nav__bar-btn">Learn More</button>
                 </div>
             </div>
         </nav>
     </header>
-
     <main>
-        <section class="container">
-            <form class="form">
-                <img class="loop" src="./images/icons/icons8-search.svg" alt="search">
-                <input type="search" class="search_input" placeholder="Search..." name="name">
-                <button type="submit" class="search_btn">Search</button>
-            </form>
-            <h2 class="title">All users</h2>
-
-        </section>
         <section>
-            <div class="loading">
-                <div class="lds-spinner">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-            <div class="not_found">Not found</div>
-            <div class="container card_container">
+            <div class="container form_container">
+                <form class="form">
+                    <input type="search" class="input" placeholder="Search...">
+                    <button class="search_btn">Search</button>
+                    <select class="select">
+                        <option value="popularity.desc">Popular</option>
+                        <option value="popularity.asc">Not popular</option>
+                        <option value="vote_average.desc">high votes</option>
+                        <option value="vote_average.asc">less votes</option>
+                    </select>
 
+                </form>
+                <h1 class="title">All movies</h1>
+                <h2 class="not_found">Not Found</h2>
+            </div>
         </section>
+
         <section>
             <div class="container">
-                <ul class="pagination">
+                <div class="loading">
 
+                    <div class="lds-spinner">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- <div class="card-wrapper">
+                        <div class="card">
+                            <img src="./images/icons/moon.svg" alt="moon">
+                            <div class="card__content">
+                                <h2>Lorem ipsum dolor sit amet.</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam numquam non ipsa earum doloribus nihil quod accusamus similique iusto animi mollitia illum, tempore ipsum vero beatae nobis! Odio, dolore autem!</p>
+                                <span>7.6</span>
+                            </div>
+                        </div>
+
+
+                    </div> -->
+                </div>
+                <ul>
+                    <li><span>1</span></li>
+                    <li><span>2</span></li>
+                    <li><span>3</span></li>
+                    <li><span>4</span></li>
+                    <li><span>5</span></li>
+                    <li><span>6</span></li>
+                    <li><span>7</span></li>
+                    <li><span>8</span></li>
+                    <li><span>9</span></li>
+                    <li><span>10</span></li>
+                    <li><span>11</span></li>
+                    <li><span>12</span></li>
+                    <li><span>13</span></li>
+                    <li><span>14</span></li>
+                    <li><span>15</span></li>
+                    <li><span>16</span></li>
+                    <li><span>17</span></li>
+                    <li><span>18</span></li>
+                    <li><span>19</span></li>
+                    <li><span>20</span></li>
+                    <li><span>21</span></li>
+                    <li><span>22</span></li>
+                    <li><span>23</span></li>
+                    <li><span>24</span></li>
+                    <li><span>25</span></li>
+                    <li><span>26</span></li>
+                    <li><span>27</span></li>
+                    <li><span>28</span></li>
+                    <li><span>29</span></li>
+                    <li><span>30</span></li>
+                    <li><span>31</span></li>
+                    <li><span>32</span></li>
+                    <li><span>33</span></li>
+                    <li><span>34</span></li>
+                    <li><span>35</span></li>
+                    <li><span>36</span></li>
+                    <li><span>37</span></li>
+                    <li><span>38</span></li>
+                    <li><span>39</span></li>
+                    <li><span>40</span></li>
+                    <li><span>41</span></li>
+                    <li><span>42</span></li>
+                    <li><span>43</span></li>
+                    <li><span>44</span></li>
+                    <li><span>45</span></li>
+                    <li><span>46</span></li>
+                    <li><span>47</span></li>
+                    <li><span>48</span></li>
+                    <li><span>49</span></li>
+                    <li><span>50</span></li>
                 </ul>
             </div>
         </section>
+
     </main>
 
-    <script src="./js/main.js"></script>
+
+
+
+
+    <script src="./js/main.js "></script>
 </body>
 
 </html>
