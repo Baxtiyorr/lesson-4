@@ -5,7 +5,7 @@ const input = document.querySelector('.search_input')
 const not_found_massage = document.querySelector('.not_found')
 
 
-// const serch_users =
+
 const github_api_url = 'https://api.github.com/users?/per_page-80';
 const token = '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'
 
@@ -39,9 +39,9 @@ form.addEventListener('submit', async(e) => {
     e.preventDefault()
     const search_value = input.value.trim().toLowerCase()
 
-    const users = await get_data(`https://api.github.com/users/${search_value}`)
+    const users = await get_data(`https://api.github.com/search/code?q=${search_value}`)
 
-    users_render(users)
+    // users_render(users)
 
 })
 
